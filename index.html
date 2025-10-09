@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de desenvolvedor front-end com projetos em HTML, CSS e JavaScript">
+    <title>Portfólio - Desenvolvedor Front-end</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="glass page-wrapper">
+        <!-- navbar -->
+        <nav id="navbar" class="glass" aria-label="Navegação principal">
+            <ul>
+                <li><a href="#aboutme" class="nav-link">Sobre mim</a></li>
+                <li><a href="#skills" class="nav-link">Habilidades</a></li>
+                <li><a href="#projects" class="nav-link">Projetos</a></li>
+                <li><a href="#contact" class="nav-link">Contato</a></li>
+            </ul>
+        </nav>
+
+        <div id="section-container">
+            <!-- sobre mim -->
+            <section id="aboutme" class="glass hover-card">
+                <h2>Sobre mim</h2>
+                <div class="profile-image-container">
+                    <img src="/images/image.png" alt="Foto de perfil" loading="lazy">
+                </div>
+                <p>Olá! Meu nome é Fábio e sou apaixonado por tecnologia, design e desenvolvimento de software. Gosto de
+                    transformar ideias em projetos reais — desde interfaces intuitivas até sistemas completos. Tenho
+                    experiência com HTML, CSS, JavaScript, Java e também com bancos de dados como MongoDB e MySQL.
+
+                    Sou curioso por natureza e adoro aprender novas ferramentas, especialmente quando envolvem frontend
+                    moderno e integração com backend. Além de programar, me interesso por UX/UI, boas práticas de código e
+                    soluções que realmente fazem diferença para as pessoas.</p>
+            </section>
+
+            <!-- habilidades -->
+            <section id="skills" class="glass hover-card">
+                <h2>Habilidades</h2>
+                <ul class="skills-list">
+                    <li><i class="fa-brands fa-html5" aria-hidden="true"></i> HTML5</li>
+                    <li><i class="fa-brands fa-css3-alt" aria-hidden="true"></i> CSS3</li>
+                    <li><i class="fa-brands fa-js" aria-hidden="true"></i> JavaScript</li>
+                    <li><i class="fa-brands fa-java" aria-hidden="true"></i> Java</li>
+                    <li><i class="fa-solid fa-database" aria-hidden="true"></i> MongoDB</li>
+                    <li><i class="fa-solid fa-database" aria-hidden="true"></i> MySQL</li>
+                </ul>
+            </section>
+        </div>
+
+        <!-- projetos -->
+        <section id="projects" class="glass">
+            <h2>Projetos</h2>
+
+            <!-- Projeto 1 -->
+            <div class="project_card glass">
+                <div class="project-image">
+                    <img src="/images/image.png" alt="Captura de tela do projeto Meu Perfil" loading="lazy">
+                </div>
+                <h3>Meu Perfil</h3>
+                <p>Descrição do projeto Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt enim optio
+                    molestias iusto itaque reiciendis rem temporibus?</p>
+                <a href="#" class="project-link">
+                    <i class="fa-brands fa-github" aria-hidden="true"></i>Ver no GitHub
+                </a>
+            </div>
+            
+        </section>
+
+        <!-- contato -->
+        <section id="contact" class="glass">
+            <h2>Contato</h2>
+            <p>Você pode me enviar um email: <a href="mailto:email@email.com">email@email.com</a></p>
+            <div class="social-links">
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
